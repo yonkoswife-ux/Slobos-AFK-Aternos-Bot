@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "AFK_Bot123",
+    "username": "AFK_Bot",
     "password": "",
     "type": "offline"
   },
@@ -12,21 +12,49 @@
     "try-creative": false
   },
   "position": {
-    "enabled": false
+    "enabled": false,
+    "x": 0,
+    "y": 100,
+    "z": 0
   },
   "utils": {
     "auto-auth": {
       "enabled": false
     },
     "anti-afk": {
-      "enabled": false
+      "enabled": false,
+      "sneak": false
     },
+    "chat-messages": {
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 120,
+      "messages": [
+        "Hello!",
+        "I am AFK Bot",
+        "Minecraft is fun!"
+      ]
+    },
+    "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 60000,
+    "auto-reconnect-delay": 30000,
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": false
+    "enabled": false,
+    "circle-walk": {
+      "enabled": false,
+      "radius": 4,
+      "speed": 3000
+    },
+    "look-around": {
+      "enabled": false,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": false,
+      "interval": 10000
+    }
   },
   "modules": {
     "avoidMobs": false,
@@ -34,5 +62,25 @@
     "beds": false,
     "chat": false,
     "console-commands": false
+  },
+  "combat": {
+    "attack-mobs": false,
+    "auto-eat": false
+  },
+  "beds": {
+    "pick-up-day": false,
+    "place-night": false
+  },
+  "discord": {
+    "enabled": false,
+    "webhookUrl": "",
+    "events": {
+      "connect": false,
+      "disconnect": false,
+      "chat": false
+    }
+  },
+  "chat": {
+    "respond": false
   }
 }
