@@ -7,7 +7,7 @@
   },
   "server": {
     "ip": "darkiswhitefr-8NI5.aternos.me",
-    "version": "1.21.1",
+    "version": false,
     "try-creative": false
   },
   "position": {
