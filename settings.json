@@ -7,7 +7,6 @@
   },
   "server": {
     "ip": "darkiswhitefr-8NI5.aternos.me",
-    "port": 63170,
     "version": "1.21.1",
     "try-creative": false
   },
