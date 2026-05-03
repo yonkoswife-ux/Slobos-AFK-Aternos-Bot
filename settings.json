@@ -8,7 +8,7 @@
   "server": {
     "ip": "darkiswhitefr-8NI5.aternos.me",
     "port": 25565,
-    "version": false,
+    "version": "1.21.1",
     "try-creative": false
   },
   "position": {
@@ -19,16 +19,14 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
-      "password": "chalol78"
+      "enabled": false
     },
     "anti-afk": {
-      "enabled": false,
-      "sneak": true
+      "enabled": false
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
+      "enabled": false,
+      "repeat": false,
       "repeat-delay": 120,
       "messages": [
         "I'm a regular player",
@@ -38,35 +36,35 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
+    "auto-reconnect-delay": 30000,
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
-      "enabled": true,
+      "enabled": false,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
   "modules": {
-    "avoidMobs": true,
-    "combat": true,
+    "avoidMobs": false,
+    "combat": false,
     "beds": false,
-    "chat": true,
-    "console-commands": true
+    "chat": false,
+    "console-commands": false
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
     "pick-up-day": false,
@@ -74,14 +72,14 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "webhookUrl": "",
     "events": {
-      "connect": true,
-      "disconnect": true,
+      "connect": false,
+      "disconnect": false,
       "chat": false
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
