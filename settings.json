@@ -1,21 +1,18 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "GTA6CUMING",
+    "username": "AFK_Bot123",
     "password": "",
     "type": "offline"
   },
   "server": {
     "ip": "darkiswhitefr-8NI5.aternos.me",
     "port": 25565,
-    "version": "1.21.1",
+    "version": false,
     "try-creative": false
   },
   "position": {
-    "enabled": false,
-    "x": 0,
-    "y": 100,
-    "z": 0
+    "enabled": false
   },
   "utils": {
     "auto-auth": {
@@ -24,36 +21,12 @@
     "anti-afk": {
       "enabled": false
     },
-    "chat-messages": {
-      "enabled": false,
-      "repeat": false,
-      "repeat-delay": 120,
-      "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
-      ]
-    },
-    "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 30000,
+    "auto-reconnect-delay": 60000,
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": false,
-    "circle-walk": {
-      "enabled": false,
-      "radius": 4,
-      "speed": 3000
-    },
-    "look-around": {
-      "enabled": false,
-      "interval": 5000
-    },
-    "random-jump": {
-      "enabled": false,
-      "interval": 10000
-    }
+    "enabled": false
   },
   "modules": {
     "avoidMobs": false,
@@ -61,25 +34,5 @@
     "beds": false,
     "chat": false,
     "console-commands": false
-  },
-  "combat": {
-    "attack-mobs": false,
-    "auto-eat": false
-  },
-  "beds": {
-    "pick-up-day": false,
-    "place-night": false
-  },
-  "discord": {
-    "enabled": false,
-    "webhookUrl": "",
-    "events": {
-      "connect": false,
-      "disconnect": false,
-      "chat": false
-    }
-  },
-  "chat": {
-    "respond": false
   }
 }
